@@ -1,0 +1,45 @@
+/** {
+  box-sizing: border-box;
+  background-color: lightgreen;
+}*/
+
+.info{
+	
+ background-color: lightgrey;
+  width: 500px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: auto;
+  align-content: center;
+}
+
+@keyframes logoanim{
+  25%{transform: translateX(-10%);}
+  50%{transform: translateX(-10%);}
+  75%{transform: translateX(10%);}
+  100%{transform: translateX(10%);}
+}
+
+.anim{
+  animation-name: logoanim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+img{
+  width:400px;
+  height:400px;
+}

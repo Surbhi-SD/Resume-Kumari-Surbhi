@@ -1,0 +1,183 @@
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+*{
+	line-height: 1.5;	
+}
+
+body{
+	background-color: #ccf2ff;
+	border: 8px double ;
+  border-radius: 8px;
+  padding: 75px;
+  font-family: menu;
+}
+
+p{
+	font-size: large;
+}
+
+.table{
+	font-size: large;
+}
+
+h6{
+	font-size: large;
+}
+
+.font{
+	font-size: large;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+
+img{
+	width: 180px;
+	height: 220px;
+	float: left;
+}
+
+.image{
+	float: right;
+	width: 180px;
+	height: 220px;
+	border-radius: 30%;
+	margin-right: 18%
+}
+
+.info{
+	float: left;
+	margin-left: 5%;
+}
+
+.co{
+	float: left;
+	margin-left: 0%;
+}
+
+/** {
+  box-sizing: border-box;
+  background-color: lightgreen;
+}*/
+
+/*.info{
+	
+ background-color: lightgrey;
+  width: 500px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: auto;
+  align-content: center;
+}*/
+.done{
+	text-align: center;
+	color: blue;
+}
+
+@keyframes logoanim{
+  25%{transform: translateX(-10%);}
+  50%{transform: translateX(-10%);}
+  75%{transform: translateX(10%);}
+  100%{transform: translateX(10%);}
+}
+
+
+.anim{
+	border-radius: 50%;
+  animation-name: logoanim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+
+.img-container1 {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin-left: 15%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@keyframes htmlanim{
+ 0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.anim1{
+	background-color: #ccf2ff;
+	border-radius: 30%;
+  animation-name: htmlanim;
+  animation-duration: 2s ;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cssanim {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.anim2{
+	background-color: #ccf2ff;
+	border-radius: 30%;
+  animation-name: cssanim;
+  animation-duration: 2s ;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes jsanim {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.anim3{
+	border-radius: 30%;
+	animation-name: jsanim;
+  animation-duration: 2s ;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.sig{
+	text-align: right;
+	font-style: italic;
+	font-size: x-large;
+	margin-right: 10%;
+}
